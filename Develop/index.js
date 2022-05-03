@@ -1,8 +1,6 @@
-// TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-// TODO: Create an array of questions for user input
 inquirer
   .prompt([
     { // Name
@@ -39,7 +37,7 @@ inquirer
         type: 'list',
         name: 'license',
         message: 'Which license is your application covered under?',
-        choices: ['License1','License2','License3','License4']
+        choices: ['MIT','ISC','Eclipse','IBM']
     },
     {// GitHub Username
         type: 'input',
@@ -52,24 +50,21 @@ inquirer
         message: 'What is your email address?',
     },
   ]) .then((data) => {
-      // TODO: Create a function to write README file
     fs.writeFileSync('readme.md', generateREADME(data))
 
   })
   .then(() => console.log('Your High-quality README has been successfully generated!'))
   .catch((err) => console.log(err));
 
-
-// TODO: Create a function to initialize app
-
-// Function call to initialize app
-
-
-
-
 const generateREADME = (data) => {
     return `
     #${data.title}
+    ${data.license}
+    MIT: [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+    ISC: [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+    Eclipse: [![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)
+    IBM: [![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
+
 
     ##Table of Contents
     - [Description](#description)

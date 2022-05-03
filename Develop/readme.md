@@ -1,7 +1,7 @@
 
-    #making roofs
+    # making roofs
 
-    ##Table of Contents
+    ## Table of Contents
     - [Description](#description)
     - [Installation](#installation)
     - [Usage](#usage)
@@ -9,11 +9,11 @@
     - [License](#license)
     - [Contact Info](#contact-info)
 
-    ##Description i make roofs
+    ## Description i make roofs
     
-    ##Installation billy's making rooves
+    ## Installation billy's making rooves
 
-    ##Usage used to make roofes
+    ## Usage used to make roofes
 
     ##Constributions make more roovs
 
