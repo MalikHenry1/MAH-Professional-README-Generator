@@ -18,7 +18,7 @@ inquirer
     { // Description
       type: 'input',
       message: 'Give us a brief decsription of your project here: ',
-      name: 'descritption',
+      name: 'description',
     },
     { // Installation Instructions
         type: 'input',
@@ -72,12 +72,12 @@ const generateREADME = (data) => {
     #${data.title}
 
     ##Table of Contents
-    -[Description]
-    -Installation
-    -Usage
-    -Contributions
-    -License
-    -Contact Info
+    - [Description](#description)
+    - [Installation](#installation)
+    - [Usage](#usage)
+    - [Contributions](#contributions)
+    - [License](#license)
+    - [Contact Info](#contact-info)
 
     ##Description ${data.description}
     
@@ -89,16 +89,15 @@ const generateREADME = (data) => {
 
     ##License ${data.license}
 
-    ##Contact Info ${data.github} ${data.email}
+    ##Questions
+    If you have any questions feel free to reach me with the following information listed below:
+    GitHub: github.com/${data.github} 
+    Email: ${data.email}
     
     
     `
 }
 
 
+// screencastify
 
- // { // Table of Contents
-    //     type: 'input',
-    //     message: 'What is your LinkedIn profile URL?',
-    //     name: 'linkedin'
-    // }, make table of contents links dynamic
