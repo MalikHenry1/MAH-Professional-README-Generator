@@ -57,16 +57,20 @@ inquirer
   .catch((err) => console.log(err));
 
 const generateREADME = (data) => {
+
+      
     return `
-    #${data.title}
+    # ${data.title}
     ${data.license}
-    MIT: [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+
+    MIT: 
+    \`[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)\`
     ISC: [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
     Eclipse: [![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)
     IBM: [![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
 
 
-    ##Table of Contents
+    ## Table of Contents
     - [Description](#description)
     - [Installation](#installation)
     - [Usage](#usage)
@@ -74,25 +78,80 @@ const generateREADME = (data) => {
     - [License](#license)
     - [Contact Info](#contact-info)
 
-    ##Description ${data.description}
+    ## Description ${data.description}
     
-    ##Installation ${data.installation}
+    ## Installation ${data.installation}
 
-    ##Usage ${data.usage}
+    ## Usage ${data.usage}
 
-    ##Constributions ${data.contribution}
+    ## Constributions ${data.contribution}
 
-    ##License ${data.license}
+    ## License ${data.license}
 
-    ##Questions
+    ## Questions
     If you have any questions feel free to reach me with the following information listed below:
     GitHub: github.com/${data.github} 
     Email: ${data.email}
     
     
+
+
     `
-}
+};
 
 
 // screencastify
-
+// return `# ${data.title}
+//       ${data.license}
+      
+//       ## Description
+      
+//       ${data.description}
+      
+//       ## Table of Contents 
+      
+//       * [Installation](#installation)
+      
+//       * [Usage](#usage)
+//        ${data.license}
+//       * [Contributing](#contributing)
+      
+//       * [Tests](#tests)
+      
+//       * [Questions](#questions)
+      
+//       ## Installation
+      
+//       To install necessary dependencies, run the following command:
+      
+//       \`\`\`
+//       ${data.installation}
+//       \`\`\`
+      
+//       ## Usage
+      
+//       ${data.usage}
+      
+//       ${data.license}
+        
+//       ## Contributing
+      
+//       ${data.contributing}
+      
+//       ## Tests
+      
+//       To run tests, run the following command:
+      
+//       \`\`\`
+//       ${data.test}
+//       \`\`\`
+      
+//       ## Questions
+      
+//       If you have any questions about the repo, open an issue or contact me directly at ${
+//           data.email
+//         }. You can find more of my work at [${data.github}](https://github.com/${
+//           data.github
+//         }/).
+      
+//       `;
