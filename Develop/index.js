@@ -76,7 +76,7 @@ const generateREADME = (data) => {
     - [Usage](#usage)
     - [Contributions](#contributions)
     - [License](#license)
-    - [Contact Info](#contact-info)
+    - [Questions](#questions)
 
   ## Description 
   
@@ -90,7 +90,7 @@ const generateREADME = (data) => {
   
   ${data.usage}
 
-  ## Constributions 
+  ## Contributions 
   
   ${data.contribution}
 
@@ -100,7 +100,9 @@ const generateREADME = (data) => {
 
   ## Questions
   If you have any questions feel free to reach me with the following information listed below:
+
   GitHub: github.com/${data.github} 
+  
   Email: ${data.email}
     
     
