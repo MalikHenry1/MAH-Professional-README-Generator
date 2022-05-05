@@ -1,6 +1,6 @@
-# test
+# Crab Buckets
  
- License Used: Eclipse
+ License Used: ISC
 
   MIT: 
   [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
@@ -19,30 +19,30 @@
 
   ## Description 
   
-  test
+  This project contains code for tracking your favorite crabs across the world!
     
   ## Installation 
   
-  test
+  In order to use this app, you must install node.
 
   ## Usage 
   
-  test
+  This application, once downloaded, will allow you to use a high-quality browser and access our crab API called crabTracker.
 
   ## Contributions 
   
-  test
+  In order to contribute to this project, please see my contact info listed below.
 
   ## License 
   
-  Eclipse
+  ISC
 
   ## Questions
   If you have any questions feel free to reach me with the following information listed below:
 
-  GitHub: github.com/test 
+  GitHub: github.com/crabs12 
   
-  Email: test
+  Email: crablover@crabs.crab
     
     
 
