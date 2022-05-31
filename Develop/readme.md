@@ -1,4 +1,4 @@
-# Team Profile Generator
+# Express Note Taker
  
  License Used: MIT
 
@@ -19,19 +19,19 @@
 
   ## Description 
   
-  This repository contains code for a command-line run application that generates a team profile page. 
+  This is an application called Note Taker that can be used to write and save notes. The target audience for this app is small business owners who, through using the app, can organize their thoughts and keep track of tasks that need to be completed.
     
   ## Installation 
   
-  This Team Profile Generator uses inquirer and fs packages to generate prompts for the user inputs and properly overwrite files, respectively. Inquirer can be installed using the npm i command in terminal. 
+  In order for this app to function, the user must install inquirer.
 
   ## Usage 
   
-  Users are given the opportunity to build their team with a Manager (mandatory), Intern, and/or Engineer positions. The prompts begin with having the user input the name, id, email, and office number of the team manager. Once the manager has been properly created, the user is then given the option to add an intern, add an engineer, or complete the team in its current state. Based on the users choice, the prompts will either specify the parameters for an intern (name, id, school) or an engineer (name, id, github) and create profile tags accordingly. 
+  When the user opens the landing page, they are presented with a homepage that allows them to navigate to the note taking start button.
 
   ## Contributions 
   
-  Contribtuions to this project can be made by contacting me, Malik Henry, at mhenry30658@gmail.com
+  Contributions can be made through the contact info listed below.
 
   ## License 
   
@@ -40,7 +40,7 @@
   ## Questions
   If you have any questions feel free to reach me with the following information listed below:
 
-  GitHub: github.com/MalikHenry1 
+  GitHub: [github.com/MalikHenry1](mailto:github.com/MalikHenry1)
   
   Email: mhenry30658@gmail.com
     

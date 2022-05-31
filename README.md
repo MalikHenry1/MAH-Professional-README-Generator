@@ -26,7 +26,7 @@
   ## Questions
   If you have any questions feel free to reach me with the following information listed below:
 
-  GitHub: github.com/MalikHenry1
+  GitHub: [github.com/MalikHenry1](mailto:github.com/MalikHenry1)
   
   Email: mhenry30658@gmail.com
 
